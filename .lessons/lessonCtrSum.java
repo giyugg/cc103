@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class lessonCtrSum {
-    public static void main(String[] args) {
+    public static void main(String[] args) { // Controlled Loop
         Scanner scan = new Scanner(System.in);
 
         int ctr = 5;    // control variable: 5,4,3,2,1
