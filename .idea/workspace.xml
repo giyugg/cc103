@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c246fa1a-7aea-47c3-8066-7b44b5cf5f18" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.lessons/lessonDoWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/.lessons/lessonDoWhile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.lessons/lessonFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/.lessons/lessonFor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.lessons/lessonWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/.lessons/lessonWhile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +43,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "P:/CC103_Projects",

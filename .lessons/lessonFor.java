@@ -5,7 +5,7 @@ public class lessonFor {
         Scanner scan = new Scanner(System.in);
 
         for (int ctr = 0; ctr < 3; ctr++) {
-            System.out.println("Enter a number: ");
+            System.out.print("Enter a number: ");
             int num = scan.nextInt();
         }
     }

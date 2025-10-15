@@ -6,7 +6,7 @@ public class lessonDoWhile {
         int ctr = 0;
 
         do {
-            System.out.println("Enter a number: ");
+            System.out.print("Enter a number: ");
             int num = scan.nextInt();
             ctr++;
         } while (ctr < 3);
