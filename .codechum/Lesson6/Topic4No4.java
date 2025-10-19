@@ -18,6 +18,8 @@ public class Topic4No4 {
         
         System.out.print("Enter the year: ");
         int year = input.nextInt();
+
+        input.close();
         
         if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
             System.out.print("Year is a leap year.");

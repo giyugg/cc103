@@ -11,6 +11,8 @@ public class Topic4No3 {
         
         System.out.print("Enter character: ");
         char character = input.next().charAt(0);
+
+        input.close();
         
         if (!Character.isLetterOrDigit(character)) {
             System.out.print("Character is a special character.");
