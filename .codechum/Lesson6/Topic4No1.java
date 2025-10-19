@@ -18,6 +18,8 @@ public class Topic4No1 {
         System.out.print("Enter z: ");
         int z = input.nextInt();
         
+        input.close();
+
         if (x == y && y == z) {
             System.out.println("Triangle is equilateral.");
         }

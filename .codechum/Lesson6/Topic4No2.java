@@ -14,6 +14,8 @@ public class Topic4No2 {
         
         System.out.print("Enter second number: ");
         int num2 = input.nextInt();
+
+        input.close();
         
         if ((num1 > 0 && num2 > 0) || (num1 < 0 && num2 < 0)) {
             System.out.println("Numbers have the same sign.");

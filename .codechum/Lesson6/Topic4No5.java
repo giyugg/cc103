@@ -14,6 +14,8 @@ public class Topic4No5 {
         System.out.print("Enter y: ");
         int y = input.nextInt();
         
+        input.close();
+        
         if (x == y) {
             System.out.print("Numbers are equal.");
         }
