@@ -1,11 +1,11 @@
-package Lesson6;
+package Lesson6.Topic4;
 /* Write a program that takes two integers, num1 and num2, as input and checks if they have the same sign.
 If both num1 and num2 are greater than 0 or both are less than 0, it prints "Numbers have the same sign." 
 Otherwise, it does nothing. */
 
 import java.util.Scanner;
 
-public class Topic4No2 {
+public class No2SameSign {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         

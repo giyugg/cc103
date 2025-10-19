@@ -1,10 +1,10 @@
-package Lesson7;
+package Lesson7.Topic2;
 /* Write a program that takes an integer input from the user and calculates the sum of its digits using a while loop. 
 The program should output the result to the user. */
 
 import java.util.Scanner;
 
-public class Topic2No5 {
+public class No5SumOfDigits {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         

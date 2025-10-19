@@ -1,10 +1,10 @@
-package Lesson7;
+package Lesson7.Topic2;
 /* Write a program that takes an integer number. 
 Use a while loop to count the number of digits in the entered number and print it. */
 
 import java.util.Scanner;
 
-public class Topic2No1 {
+public class No1DigitCount {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         

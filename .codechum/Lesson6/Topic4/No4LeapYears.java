@@ -1,4 +1,4 @@
-package Lesson6;
+package Lesson6.Topic4;
 /* Write a program that takes an integer year as input and performs the following steps 
 to determine if the year is a leap year:
 
@@ -12,7 +12,7 @@ The program should print "Year is a leap year." if condition is met. Otherwise, 
 
 import java.util.Scanner;
 
-public class Topic4No4 {
+public class No4LeapYears {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         

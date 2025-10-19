@@ -1,10 +1,10 @@
-package Lesson7;
+package Lesson7.Topic2;
 /* Write a program that takes an integer n. Use a while loop to iterate through the numbers from 1 to n (inclusive). 
 For each number, check if it is even, and if so, print it on a separate line. */
 
 import java.util.Scanner;
 
-public class Topic2No3 {
+public class No3EvenNumberPrinter {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         

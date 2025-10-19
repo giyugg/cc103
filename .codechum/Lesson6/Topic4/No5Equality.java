@@ -1,10 +1,10 @@
-package Lesson6;
+package Lesson6.Topic4;
 /* Write a program that takes two integers, x and y, as input and checks if they are equal. 
 If x is equal to y, it print "Numbers are equal." */
 
 import java.util.Scanner;
 
-public class Topic4No5 {
+public class No5Equality {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         

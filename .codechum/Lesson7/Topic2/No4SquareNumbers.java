@@ -1,11 +1,11 @@
-package Lesson7;
+package Lesson7.Topic2;
 /* Write a program that takes an integer number. 
 Use a while loop to print the square of numbers from 1 to the inputted number. 
 Each square should be printed on a separate line. */
 
 import java.util.Scanner;
 
-public class Topic2No4 {
+public class No4SquareNumbers {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
