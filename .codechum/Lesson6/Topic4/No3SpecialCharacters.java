@@ -1,11 +1,11 @@
-package Lesson6;
+package Lesson6.Topic4;
 /* Write a program that takes a character, character, as input and checks if it is a special character. 
 If the character is neither an alphabet letter nor a digit, it prints "Character is a special character." 
 Otherwise, it does nothing. */
 
 import java.util.Scanner;
 
-public class Topic4No3 {
+public class No3SpecialCharacters {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
