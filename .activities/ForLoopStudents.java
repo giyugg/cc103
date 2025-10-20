@@ -49,7 +49,7 @@ public class ForLoopStudents {
             System.out.println(""); // for new line
         } // main `for`
 
-        System.out.println("\nGrade Summary:");
+        System.out.println("Grade Summary:");
         System.out.println("Passed: " + totalPassed);
         System.out.println("Failed: " + totalFailed);   
     }
