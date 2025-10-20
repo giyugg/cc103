@@ -19,16 +19,38 @@ public class ForLoopStudents {
         }
         System.out.println("--------------------------------");
         
+        int totalPassed = 0;
+        int totalFailed = 0;
+
         for (int ctr = 0; ctr < studNum; ctr++) {
             System.out.print("Enter Name of Student " + (ctr + 1) + ": ");
             String studName = scan.nextLine();
 
+            int totalGrade = 0;
+
             for (int gradectr = 0; gradectr < subjNum; gradectr++) {
                 System.out.print("Grade #" +  (gradectr + 1) + ": ");
                 int studGrade = scan.nextInt();
+                totalGrade += studGrade;
                 scan.nextLine();
             } // nested for
+            
+            double average = (double) totalGrade / subjNum; 
+            System.out.println("Average : " + average);
+
+            if (average > 100 || average < 0) {
+                System.out.println("Invalid average. The average must be 0-100. Not counted.");
+            } else if (average >= 75) { 
+                totalPassed++; 
+            } else { 
+                totalFailed++;
+            }
+
             System.out.println(""); // for new line
         } // main `for`
+
+        System.out.println("\nGrade Summary:");
+        System.out.println("Passed: " + totalPassed);
+        System.out.println("Failed: " + totalFailed);   
     }
 }
