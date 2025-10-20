@@ -51,6 +51,19 @@ public class ForLoopStudents {
 
         System.out.println("Grade Summary:");
         System.out.println("Passed: " + totalPassed);
-        System.out.println("Failed: " + totalFailed);   
+        System.out.println("Failed: " + totalFailed);
+        
+        System.out.println("\nGrade Chart:");
+        
+        System.out.print("Passed: ");
+        for (int i = 0; i < totalPassed; i++) {
+            System.out.print("*");
+        }
+        System.out.println();
+        System.out.print("Failed: ");
+        for (int i = 0; i < totalFailed; i++) {
+            System.out.print("*");
+        }
+        scan.close();
     }
 }
