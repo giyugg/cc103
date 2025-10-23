@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class AcunaKylePracticeExercise1Methods {
+public class CalculatorMethod {
 
     static Scanner input = new Scanner(System.in);
     static double num1, num2;
