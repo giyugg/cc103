@@ -46,20 +46,20 @@ public class MethodSwap {
     }
 
     public static void swapValues(int a, int b, int c) {
-    int high = getHighest(a, b, c);
-    int low = getLowest(a, b, c);
+        int high = getHighest(a, b, c);
+        int low = getLowest(a, b, c);
 
-    if (a == high) a = low;
-    else if (a == low) a = high;
+        if (a == high) a = low;
+        else if (a == low) a = high;
 
-    if (b == high) b = low;
-    else if (b == low) b = high;
+        if (b == high) b = low;
+        else if (b == low) b = high;
 
-    if (c == high) c = low;
-    else if (c == low) c = high;
+        if (c == high) c = low;
+        else if (c == low) c = high;
 
-    System.out.println();
-    System.out.println("After swapping");
-    System.out.println("a = " + a + ", b = " + b + ", c = " + c);
+        System.out.println();
+        System.out.println("After swapping");
+        System.out.println("a = " + a + ", b = " + b + ", c = " + c);
     }
 }
