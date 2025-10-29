@@ -14,7 +14,7 @@ public class BasicArithmetic {
         d = input.nextInt();
         input.close(); 
         
-        int sum = (a + b) * (c + d);
+        int sum = (a+b) * (c+d);
         
     System.out.println("(" + a + " + " + b + ") * (" + c + " + " + d + ") = " + sum);
     }
